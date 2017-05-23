@@ -1,0 +1,51 @@
+Project :-product id expansion(2 to 4 char)
+Client :-AbInbev
+
+project duration:- feb 2016 to june 2017
+No of application :-BIC,SSM,PLN,PSM,APOM,ADS(SOAP webservice),WMS
+
+Client description:AbInven is US company which manufacture beers.it is one of bog company in beljium(head quarter)
+
+Requirement:-this compaany have currently 1296 prdouct.for which it has 2 char product id.now comapny is growin with no of products.so it need to increase size of product
+from 2 to 4 char.
+here this product id used in 3 diffrent combination.
+PCS,PDCN,Product itself.where it combines with container code and stock code.
+
+approch and phase of project:-
+approach decide to deliver application:-its divided in 3 diffrent wave based on complexcity of application.
+1.analysis phase:-we need to find out places where we need to code change,what are inbound and out bound interface,what are database,schema.what are techonlogy is used for interfacing.
+
+2. build phase:-deploy the  existing application 
+3. code changes 
+4.UT and SIT
+5.deployment
+
+
+challanges:-
+1.invisiblity of everything.
+2.to find out interface of application.then how to applu bridges.ned to check whether other application will affect or not.
+3.data setup issue.client does not have proper test data.and same database is used with multiple application.so every one is changing according to rrquirement.
+4.intercation  with diffrent technology applicaton.(mainframe,.NEt,webmethd,sap,bi,c++,) usinf FTP and jms
+5. we dont have knowledge of MQ technology.here everytime facing issue with mainframe side.
+
+
+what are the big challanges and achivement i solved and get.
+
+1.delivered all application with no defect in SIT UST ,production.
+2.on time deleivery.
+3.gave traning to entire team for MQ technology.
+4.solved one AMS team issue which was pending with 20 days.and i solved in 1.5 day by optimizing query.
+5.solved one production  cache issue during deployemnt time.
+6.solved one two DB connection issue with diffrent tech.
+7.solved one UI issue hlding with 10 days.
+8 developed search and replace tool for project.
+9
+
+technology:-core and advance JAVA,oracle
+frame work:-jSF,jms,struts,spring ,ant ,maven
+Hands on experience on tool:-github,clearcase,ALM,beyond compare ,decompiler,MQ explorer,eclipse ,toad,Soap ui 
+
+
+
+
+
